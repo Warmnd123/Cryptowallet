@@ -1,0 +1,173 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: white;
+}
+/*body{
+
+
+    min-height: 100vh;
+    font-family: sans-serif;
+    /*background: url(btcbg.jpg) no-repeat;
+    background-size: cover;
+    background-color: white;
+    /*background-image: linear-gradient(rgb(0, 0, 0), rgb(110, 117, 116));
+}*/
+
+.menu {
+    background: #009879;
+    text-align: center;
+
+}
+.menu ul{
+    display: inline-flex;
+    list-style: none;
+    color: #fff; 
+    margin: 15px;
+}
+
+.meu ul,li{
+    width: 50px;
+    margin: 0px 30px;
+    padding:0px 70px;
+    font-weight: bold;
+}
+.crypto-head{
+    line-height: 70px;
+    padding: -10px 10px;
+    margin: -10px 0px;
+    float: left;
+    font-weight: bolder;
+    color: white;
+    font-family: sans-serif;
+    font-size: 1.5rem;
+
+}
+.crypto-head img{
+    margin: 0px 10px;
+    width: 30px;
+    height: 30px;
+
+
+}
+
+.crypto-table{
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 70%;
+    margin: 59px 200px;
+    border-radius: 5px 5px 0 0;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0, 0, 0.15);
+}
+
+.crypto-table thead tr {
+    background-color: #009879;
+    color: #ffffff;
+    text-align: left;
+    font-weight: bold;
+}
+.crypto-table th,
+.crypto-table td{
+    padding: 12px 15px;
+}
+
+.crypto-table tbody tr{
+    border-bottom: 1px solid #dddddd;
+    font-weight: bold;
+    color:black;
+    
+}
+
+/*.crypto-table tbody tr:nth-child(even) {
+    background-color:#dddddd;
+}*/
+
+.crypto-table tbody tr:last-of-type{
+    border-bottom: 2px solid #009879;
+}
+.crypto-table tbody tr:hover{
+    color:#009879;
+}
+.switch button{
+    cursor: pointer;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    margin: 15px 40px;
+    padding: 10px 15px;
+    width: 80px;
+    border-radius: 15px;
+    border: 0px;
+    background-color: rgb(255, 255, 255);
+}
+.switch button:hover{
+    background-color: #009879;
+}
+.page h3{
+    font-family: arial, sans-serif;
+    text-align: left;
+    font-weight: bold;
+    font-size: 1.5rem;
+    text-shadow: 0cqb;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.page{
+    font-size: 1.5rem;
+    color: black;
+}
+.balence{
+    margin-bottom: 50px;
+    text-align: left;
+    background-color: #fff;
+    font-weight: bolder;
+}
+.page img{
+    background-color: white;
+    margin-bottom: 500px;
+    size: 100px;
+}
+.btnwrap{
+    text-align: center;
+}
+.tb{
+    text-align: center;
+}
+
+.btn{
+    cursor: pointer;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    margin: 15px 0px;
+    padding: 10px 10px;
+    width: 80px;
+    border-radius: 15px;
+    border: 0px solid rgb(255, 255, 255);
+
+}
+
+.crypto-table td img{
+    width: 30px;
+    height: 30px;
+    margin: -7px 0.5rem;
+}
+.btn:hover{
+    background-color: #009879;
+}
+
+.page img{
+    background-color: #009879;
+    width: 50px;
+    height: 50px;
+   margin: -18px 0px; 
+    
+}
+.switch img{
+    height: 30px;
+    width: 30px;
+}
